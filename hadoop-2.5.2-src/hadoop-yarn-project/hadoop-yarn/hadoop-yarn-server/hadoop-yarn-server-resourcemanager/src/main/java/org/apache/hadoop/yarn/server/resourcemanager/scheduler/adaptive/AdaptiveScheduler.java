@@ -1151,6 +1151,10 @@ public class AdaptiveScheduler extends AbstractYarnScheduler<FiCaSchedulerApp, F
 			break;
 		}
 	}
+	
+	private void preserve(){
+		
+	}
 
 	private void nodeUpdate(RMNode rmNode) {
 		FiCaSchedulerNode node = getNode(rmNode.getNodeID());
